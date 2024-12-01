@@ -434,3 +434,95 @@ When creating use case diagrams:
 - Validate with stakeholders
 
 Use Case Diagrams are a powerful tool in requirement analysis, providing a clear, visual representation of system functionality and user interactions.
+
+# Requirement Analysis in Software Development
+
+[... Previous sections remain the same ...]
+
+## Acceptance Criteria
+
+### What are Acceptance Criteria?
+
+Acceptance Criteria are specific, testable conditions that a software product must meet to be accepted by a stakeholder or customer. They define the boundaries of a user story or feature, providing clear guidelines for when a requirement is considered successfully implemented.
+
+### Importance of Acceptance Criteria
+
+- **Clarity and Precision**
+  - Eliminate ambiguity in requirements
+  - Provide a clear definition of "done"
+  - Ensure shared understanding among team members
+
+- **Validation and Testing**
+  - Serve as a basis for creating test cases
+  - Enable objective assessment of feature completion
+  - Facilitate quality assurance processes
+
+- **Stakeholder Alignment**
+  - Bridge the gap between business requirements and technical implementation
+  - Ensure alignment with customer expectations
+  - Provide a mechanism for stakeholder sign-off
+
+### Example: Booking Checkout Feature Acceptance Criteria
+
+**User Story**: As a registered user, I want to complete a room booking and checkout process seamlessly.
+
+**Functional Acceptance Criteria:**
+
+1. **User Authentication**
+   - Given a registered user is logged in
+   - When navigating to the checkout page
+   - Then user's personal information should be pre-filled
+
+2. **Room Selection Validation**
+   - Given a user has selected a room
+   - When proceeding to checkout
+   - Then the system must:
+     * Confirm room availability for selected dates
+     * Display accurate room pricing
+     * Show total cost including any additional fees
+
+3. **Payment Processing**
+   - Given a user enters valid payment information
+   - When submitting payment
+   - Then the system must:
+     * Process payment through secure gateway
+     * Generate a unique booking confirmation number
+     * Send a confirmation email within 5 minutes
+     * Update room availability in real-time
+
+4. **Error Handling**
+   - Given insufficient payment details or unavailable room
+   - When attempting to complete booking
+   - Then the system must:
+     * Display clear, specific error messages
+     * Prevent booking completion
+     * Retain user's entered information
+     * Provide clear instructions for resolution
+
+5. **Booking Confirmation**
+   - Given a successful booking
+   - When checkout is complete
+   - Then the system must:
+     * Display a comprehensive booking summary
+     * Provide a downloadable receipt
+     * Allow immediate booking modification or cancellation
+     * Update user's booking history
+
+**Non-Functional Acceptance Criteria:**
+
+1. **Performance**
+   - Checkout process must complete within 10 seconds
+   - Support concurrent bookings from multiple users
+   - Maintain system responsiveness during peak hours
+
+2. **Security**
+   - Encrypt all payment and personal information
+   - Comply with PCI-DSS security standards
+   - Implement fraud detection mechanisms
+
+3. **User Experience**
+   - Provide a responsive design for mobile and desktop
+   - Ensure clear, readable fonts and color contrast
+   - Implement intuitive navigation during checkout
+
+Acceptance Criteria are a crucial component of requirement analysis, providing a clear, measurable guide for feature implementation and validation.
