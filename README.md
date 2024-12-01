@@ -268,3 +268,102 @@ Requirement validation ensures the accuracy, completeness, and alignment of requ
   - Establish a change management process
 
 Also, by systematically executing these key activities, requirement analysts can ensure a comprehensive, accurate, and well-defined set of requirements that form the foundation of a successful software development project.
+
+# Requirement Analysis in Software Development
+
+[... Previous sections remain the same ...]
+
+## Types of Requirements
+
+Requirements in software development are typically categorized into two primary types: Functional and Non-functional Requirements. Each plays a crucial role in defining the complete behavior and quality attributes of a software system.
+
+### Functional Requirements
+
+Functional requirements specify the specific behaviors, functions, and features that a system must perform. They describe what the system should do in response to particular inputs and define the system's core functionality.
+
+**Functional Requirements for Booking Management System**:
+
+1. **User Registration and Authentication**
+   - The system must allow users to create a new account
+   - Users must be able to log in using email and password
+   - Implement password reset functionality
+   - Support social media login options (optional)
+
+2. **Booking Management**
+   - Users must be able to search for available rooms/spaces
+   - System must allow users to select date and time ranges
+   - Provide ability to make, modify, and cancel bookings
+   - Generate unique booking confirmation numbers
+   - Send email confirmations for bookings
+
+3. **Search and Filtering**
+   - Enable filtering of rooms by:
+     * Capacity
+     * Amenities
+     * Price range
+     * Availability
+   - Implement advanced search capabilities
+   - Display search results with detailed room information
+
+4. **Payment Processing**
+   - Support multiple payment methods
+   - Calculate total booking cost
+   - Generate invoices
+   - Process refunds for cancellations
+   - Integrate with secure payment gateways
+
+5. **Reservation Management**
+   - Allow administrators to manage all bookings
+   - Provide dashboard for booking overview
+   - Support manual booking creation for admin users
+   - Generate reports on booking statistics
+
+### Non-Functional Requirements
+
+Non-functional requirements define the system's quality attributes, constraints, and performance characteristics. They describe how the system should behave and define the overall user experience and system performance.
+
+**Non-Functional Requirements for Booking Management System**:
+
+1. **Performance**
+   - System must handle at least 100 concurrent users
+   - Page load time should be under 2 seconds
+   - Search results must be returned within 500 milliseconds
+   - Support peak booking times without performance degradation
+
+2. **Security**
+   - Implement SSL/TLS encryption for all data transmissions
+   - Store passwords using strong hashing algorithms
+   - Comply with GDPR and data protection regulations
+   - Implement multi-factor authentication
+   - Log all system access and critical actions
+   - Protect against common web vulnerabilities (SQL injection, XSS)
+
+3. **Usability**
+   - Develop responsive design for mobile and desktop
+   - Ensure WCAG 2.1 accessibility compliance
+   - Provide intuitive user interface
+   - Support multiple languages
+   - Implement clear error messages and validation
+   - Maximum of 3 clicks to complete a booking
+
+4. **Reliability**
+   - System availability of 99.9% uptime
+   - Automatic backup of booking data every 4 hours
+   - Implement error logging and monitoring
+   - Graceful error handling with user-friendly messages
+   - Support system recovery in case of failures
+
+5. **Scalability**
+   - Design system to support future expansion
+   - Allow addition of new room types without major redesign
+   - Support horizontal scaling of infrastructure
+   - Accommodate increasing number of users and bookings
+
+6. **Compatibility**
+   - Compatible with major web browsers (Chrome, Firefox, Safari, Edge)
+   - Support integration with external calendar systems
+   - Compatible with iOS and Android mobile devices
+   - Support RESTful API for potential future integrations
+
+By clearly defining both functional and non-functional requirements, the development team can create a comprehensive blueprint for the booking management system that meets both user needs and quality standards.
+
