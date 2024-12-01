@@ -367,3 +367,70 @@ Non-functional requirements define the system's quality attributes, constraints,
 
 By clearly defining both functional and non-functional requirements, the development team can create a comprehensive blueprint for the booking management system that meets both user needs and quality standards.
 
+## Use Case Diagrams
+
+### What are Use Case Diagrams?
+
+Use Case Diagrams are visual representations in the Unified Modeling Language (UML) that capture the functional requirements of a system. They illustrate the interactions between system actors (users or external systems) and the various use cases (functions) within the system.
+
+### Benefits of Use Case Diagrams
+
+- Provide a high-level view of system functionality
+- Clearly define system boundaries
+- Identify key actors and their interactions
+- Facilitate communication between stakeholders
+- Serve as a basis for detailed requirement specifications
+- Help in understanding system scope and requirements
+
+### Booking Management System Use Case Diagram
+
+![Booking Management System Use Case Diagram](alx-booking-uc.png)
+
+#### Actors
+
+1. **Guest**
+   - Can view available rooms
+   - Search rooms
+   - Register for an account
+
+2. **Registered User**
+   - Inherits guest capabilities
+   - Can make bookings
+   - Manage personal bookings
+   - Update profile information
+
+3. **Admin**
+   - Manage user accounts
+   - Manage room inventories
+   - View and generate booking reports
+   - Configure system settings
+
+#### Use Case Descriptions
+
+**Guest Use Cases:**
+- **View Available Rooms**: Browse room options without logging in
+- **Search Rooms**: Apply filters to find specific room types
+- **Register Account**: Create a new user profile
+
+**Registered User Use Cases:**
+- **Make Booking**: Select and reserve rooms
+- **Manage Bookings**: View, modify, or cancel existing bookings
+- **Update Profile**: Modify personal information
+
+**Admin Use Cases:**
+- **Manage Users**: Add, remove, or modify user accounts
+- **Manage Rooms**: Add, update, or remove room inventories
+- **View Booking Reports**: Generate and analyze booking statistics
+- **System Configuration**: Adjust system-wide settings
+
+### Creating Use Case Diagrams
+
+When creating use case diagrams:
+- Identify all potential actors
+- List all system functions from each actor's perspective
+- Keep use cases concise and focused
+- Use clear, descriptive names
+- Show relationships and interactions
+- Validate with stakeholders
+
+Use Case Diagrams are a powerful tool in requirement analysis, providing a clear, visual representation of system functionality and user interactions.
