@@ -20,4 +20,71 @@ Through a step-by-step approach, this repository will walk through the process o
 - Practice visual representation of system requirements
 - Establish clear acceptance criteria
 
-Stay tuned as we progress through each stage of requirement analysis for our booking management system.
+## What is Requirement Analysis?
+
+Requirement Analysis is a critical phase in the Software Development Life Cycle (SDLC) that serves as the foundation for successful software project delivery. It is a systematic process of identifying, documenting, validating, and managing the needs and expectations of stakeholders for a proposed software solution.
+
+### Key Aspects of Requirement Analysis
+
+1. **Purpose**
+   Requirement Analysis bridges the gap between business stakeholders and technical teams by:
+   - Capturing precise business needs
+   - Defining clear project scope
+   - Establishing a shared understanding of project objectives
+   - Minimizing misunderstandings and potential project failures
+
+2. **Types of Requirements**
+
+   a) **Functional Requirements**
+   - Describe specific behaviors and functions of the system
+   - Define what the system must do
+   - Specify user interactions, system processes, and expected outputs
+   - Example: "The booking system must allow users to search and reserve available rooms"
+
+   b) **Non-Functional Requirements**
+   - Define system qualities and performance characteristics
+   - Address system constraints, performance, security, and usability
+   - Example: "The system must handle concurrent bookings from 100 users simultaneously"
+
+3. **Requirement Analysis Process**
+
+   - **Requirement Gathering**
+     - Conduct stakeholder interviews
+     - Distribute questionnaires
+     - Observe existing processes
+     - Review business documentation
+
+   - **Requirement Documentation**
+     - Create detailed requirement specifications
+     - Use visual aids like use case diagrams
+     - Write clear, unambiguous descriptions
+     - Prioritize requirements
+
+   - **Requirement Validation**
+     - Review requirements with stakeholders
+     - Ensure alignment with business goals
+     - Identify and resolve conflicts
+     - Obtain formal approval
+
+4. **Importance in SDLC**
+   - Reduces project risks
+   - Prevents costly changes in later stages
+   - Provides a clear roadmap for development
+   - Ensures customer satisfaction
+   - Facilitates more accurate project estimation
+
+5. **Challenges**
+   - Incomplete or changing stakeholder requirements
+   - Communication barriers
+   - Balancing technical feasibility with business needs
+   - Managing scope creep
+
+### Best Practices
+
+- Maintain clear and consistent communication
+- Use visual modeling techniques
+- Document requirements in detail
+- Involve stakeholders throughout the process
+- Be prepared to iterate and refine requirements
+
+Requirement Analysis is not a one-time activity but an iterative process that continues throughout the project lifecycle, ensuring that the final software product meets the evolving needs of its users and stakeholders.
