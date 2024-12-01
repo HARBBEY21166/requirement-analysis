@@ -269,10 +269,6 @@ Requirement validation ensures the accuracy, completeness, and alignment of requ
 
 Also, by systematically executing these key activities, requirement analysts can ensure a comprehensive, accurate, and well-defined set of requirements that form the foundation of a successful software development project.
 
-# Requirement Analysis in Software Development
-
-[... Previous sections remain the same ...]
-
 ## Types of Requirements
 
 Requirements in software development are typically categorized into two primary types: Functional and Non-functional Requirements. Each plays a crucial role in defining the complete behavior and quality attributes of a software system.
@@ -422,22 +418,6 @@ Use Case Diagrams are visual representations in the Unified Modeling Language (U
 - **Manage Rooms**: Add, update, or remove room inventories
 - **View Booking Reports**: Generate and analyze booking statistics
 - **System Configuration**: Adjust system-wide settings
-
-### Creating Use Case Diagrams
-
-When creating use case diagrams:
-- Identify all potential actors
-- List all system functions from each actor's perspective
-- Keep use cases concise and focused
-- Use clear, descriptive names
-- Show relationships and interactions
-- Validate with stakeholders
-
-Use Case Diagrams are a powerful tool in requirement analysis, providing a clear, visual representation of system functionality and user interactions.
-
-# Requirement Analysis in Software Development
-
-[... Previous sections remain the same ...]
 
 ## Acceptance Criteria
 
